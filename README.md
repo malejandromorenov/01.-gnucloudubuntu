@@ -103,7 +103,7 @@ sudo ACCEPT_EULA=Y apt-get install msodbcsql17
 sudo ACCEPT_EULA=Y apt-get install mssql-tools
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
-source ~/.bashrc
+source ~/.bashrc 
 # optional: for unixODBC development headers
 sudo apt-get install unixodbc-dev
 
