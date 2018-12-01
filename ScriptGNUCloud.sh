@@ -181,3 +181,7 @@ brew install gpg
 brew install nodejs
 brew install elixir
 brew install qemu
+
+
+#rust
+curl https://sh.rustup.rs -sSf | sh
