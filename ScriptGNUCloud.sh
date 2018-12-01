@@ -181,7 +181,15 @@ brew install gpg
 brew install nodejs
 brew install elixir
 brew install qemu
-
-
+#Update December 2018
 #rust
 curl https://sh.rustup.rs -sSf | sh
+#LLVM
+wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
+# Fingerprint: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
+apt-get install clang-6.0 lldb-6.0 lld-6.0
+apt-get install libllvm-6.0-ocaml-dev libllvm6.0 llvm-6.0 llvm-6.0-dev llvm-6.0-doc llvm-6.0-examples llvm-6.0-runtime
+apt-get install clang-6.0 clang-tools-6.0 clang-6.0-doc libclang-common-6.0-dev libclang-6.0-dev libclang1-6.0 clang-format-6.0 python-clang-6.0
+apt-get install libfuzzer-6.0-dev
+apt-get install lldb-6.0
+apt-get install lld-6.0
