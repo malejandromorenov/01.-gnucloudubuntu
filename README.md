@@ -1,2 +1,2 @@
 # GNUCloud
-Script Initial Cloud only for test purpose
+Script Initial Cloud
