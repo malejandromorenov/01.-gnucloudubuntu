@@ -117,7 +117,7 @@ sudo apt-get update
 sudo apt-get install apt-transport-https azure-cli
 #IBMCLOUD
 curl -fsSL https://clis.ng.bluemix.net/install/linux | sh
-ibmcloud plugin repo-plugins -r 'IBM Cloud'
+ibmcloud plugin repo-plugins 'IBM Cloud'
 ibmcloud plugin install cloud-object-storage
 ibmcloud plugin install key-protect/kp
 ibmcloud plugin install cloud-databases
@@ -136,6 +136,9 @@ ibmcloud plugin install container-service/kubernetes-service
 ibmcloud plugin install private-network-peering
 ibmcloud plugin install vpn
 ibmcloud plugin install auto-scaling
+ibmcloud plugin install doi
+ibmcloud plugin install tke
+ibmcloud plugin install key-protect
 #GOOGLECLOUD
 # Create environment variable for correct distribution
 export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)"
