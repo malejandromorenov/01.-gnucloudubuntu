@@ -2,4 +2,4 @@
 Script Initial Cloud
 
 
-![icon](https://github.com/malejandromorenov/symmetrical-palm-tree/blob/master/icon.png)
+![icon](https://github.com/malejandromorenov/cloud-ubuntu/blob/master/cloud.png)
