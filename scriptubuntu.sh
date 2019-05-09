@@ -219,3 +219,4 @@ sudo apt-get update
 sudo apt-get install -y kubectl
 sudo apt-get install virtualbox-qt
 sudo apt-get install qemu-kvm
+sudo apt-get install python3-venv
