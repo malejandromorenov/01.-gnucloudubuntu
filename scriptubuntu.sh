@@ -5,60 +5,59 @@ echo RUN WITH PRECAUTION, AVAILABLE ONLY LINUX
 echo ---
 echo -----------------------------------------
 #INIT SCRPT WITH SUPERUSER
-sudo su
 #
-sudo apt-get install ruby-thor
-#INSTALL PECL REPOSITORIES
-sudo apt-get install php-pear
+sudo apt-get install ruby-thor -y
+#INSTALL PECL REPOSITORIES -y
+sudo apt-get install php-pear -y
 #
-sudo apt-get install iptables-persistent
-sudo apt-get install ntp
-sudo apt-get install proot
+sudo apt-get install iptables-persistent -y 
+sudo apt-get install ntp -y 
+sudo apt-get install proot -y
 sudo apt-get purge upstart
-sudo apt-get install upstart
-sudo apt-get install nmap
-sudo apt-get install nuget
-sudo apt-get install php7.2-cli
+sudo apt-get install upstart -y 
+sudo apt-get install nmap -y 
+sudo apt-get install nuget -y 
+sudo apt-get install php7.2-cli -y
 #nodejs
-sudo curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
-sudo bash nodesource_setup.sh
+sudo curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh -y
+sudo bash nodesource_setup.sh -y 
 #Basic 
-sudo apt-get install gnupg2
-sudo apt-get install golang-go
-sudo apt-get install alpine
-sudo apt-get install kleopatra
-sudo apt-get install alice
-sudo apt-get install nodejs
-sudo apt-get install yarn
-sudo apt-get install ruby
+sudo apt-get install gnupg2 -y 
+sudo apt-get install golang-go -y
+sudo apt-get install alpine -y
+sudo apt-get install kleopatra -y
+sudo apt-get install alice -y
+sudo apt-get install nodejs -y
+sudo apt-get install yarn -y
+sudo apt-get install ruby -y
 #GEMS ONLY RUN AFTER INSTALL RUBY
 sudo gem install gitlab-development-kit
 sudo gem install rhc
 #
-sudo apt-get install mono-runtime
-sudo apt-get install golang-go
-sudo apt-get install gccgo-go
-sudo apt-get install imagemagick-6.q16
-sudo apt-get install graphicsmagick-imagemagick-compat
-sudo apt-get install imagemagick-6.q16hdr
+sudo apt-get install mono-runtime -y
+sudo apt-get install golang-go -y
+sudo apt-get install gccgo-go -y
+sudo apt-get install imagemagick-6.q16 -y
+sudo apt-get install graphicsmagick-imagemagick-compat -y
+sudo apt-get install imagemagick-6.q16hdr -y
 #BREW IS A MACOSX REPOSITORIES
-sudo apt-get install linuxbrew-wrapper
+sudo apt-get install linuxbrew-wrapper -y
 #ADD TO PATH
 echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >>~/.bashrc
 echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >>~/.bashrc
 echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >>~/.bashrc
 #
-sudo apt-get install opam
-sudo apt-get install nginx
-sudo apt-get install vagrant
-sudo apt-get install varnish
-sudo apt-get install trash-cli
-sudo apt-get install python-pip
-sudo apt-get install elixir
-sudo apt-get install qemu
-sudo apt-get install apache2-bin
-sudo apt-get install default-jdk
-sudo apt-get install maven
+sudo apt-get install opam -y
+sudo apt-get install nginx -y
+sudo apt-get install vagrant -y
+sudo apt-get install varnish -y
+sudo apt-get install trash-cli -y
+sudo apt-get install python-pip -y
+sudo apt-get install elixir -y
+sudo apt-get install qemu -y
+sudo apt-get install apache2-bin -y
+sudo apt-get install default-jdk -y
+sudo apt-get install maven -y
 #BD IS DEVELOPER FOR VARIABLES
 sudo apt install mongodb-clients
 sudo apt install mariadb-client-core-10.1
