@@ -151,21 +151,21 @@ RUN export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
     echo "deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && \
     sudo curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
     sudo apt-get update -y && apt-get install google-cloud-sdk -y
-sudo apt-get install google-cloud-sdk-app-engine-python-extras
-sudo apt-get install google-cloud-sdk-app-engine-python
-sudo apt-get install google-cloud-sdk-app-engine-php
-sudo apt-get install google-cloud-sdk-app-engine-java
-sudo apt-get install google-cloud-sdk-docker-credential-gcr
-sudo apt-get install google-cloud-sdk-container-builder-local
-sudo apt-get install google-cloud-sdk-cloud-build-local
-sudo apt-get install google-cloud-sdk-emulator-reverse-proxy
-sudo apt-get install google-cloud-sdk-cloud_sql_proxy
-sudo apt-get install google-cloud-sdk-pubsub-emulator
-sudo apt-get install google-cloud-sdk-gcd-emulator
-sudo apt-get install google-cloud-sdk-cloud-datastore-emulator
-sudo apt-get install google-cloud-sdk-datalab
-sudo apt-get install google-cloud-sdk-app-engine-go
-sudo apt-get install google-cloud-sdk-cbt
+sudo apt-get install google-cloud-sdk-app-engine-python-extras -y
+sudo apt-get install google-cloud-sdk-app-engine-python -y 
+sudo apt-get install google-cloud-sdk-app-engine-php -y
+sudo apt-get install google-cloud-sdk-app-engine-java -y
+sudo apt-get install google-cloud-sdk-docker-credential-gcr -y
+sudo apt-get install google-cloud-sdk-container-builder-local -y
+sudo apt-get install google-cloud-sdk-cloud-build-local -y 
+sudo apt-get install google-cloud-sdk-emulator-reverse-proxy -y
+sudo apt-get install google-cloud-sdk-cloud_sql_proxy -y
+sudo apt-get install google-cloud-sdk-pubsub-emulator -y
+sudo apt-get install google-cloud-sdk-gcd-emulator -y
+sudo apt-get install google-cloud-sdk-cloud-datastore-emulator -y
+sudo apt-get install google-cloud-sdk-datalab -y
+sudo apt-get install google-cloud-sdk-app-engine-go -y
+sudo apt-get install google-cloud-sdk-cbt -y
 #PPUPPET
 sudo wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
 sudo dpkg -i puppetlabs-release-pc1-xenial.deb
