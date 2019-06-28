@@ -11,4 +11,4 @@ sh scriptubuntu.sh
 ![icon](https://github.com/malejandromorenov/cloud-ubuntu/blob/master/cloud.png)
 
 
-Written by
+Written by Moreno Mauricio
