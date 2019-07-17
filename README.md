@@ -3,7 +3,7 @@
 ```sh
 mkdir tmp
 cd tmp
-wget https://github.com/malejandromorenov/cloud-ubuntu/blob/master/scriptubuntu.sh
+curl https://github.com/malejandromorenov/cloud-ubuntu/blob/master/scriptubuntu.sh
 sh scriptubuntu.sh
 ```
 
