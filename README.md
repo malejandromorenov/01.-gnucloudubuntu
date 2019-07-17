@@ -1,4 +1,4 @@
-# GNUCloud
+# GNU Cloud
 
 ```sh
 mkdir tmp
